@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beatriz Vial Irarrázaval on Beatriz Vial Irarrázaval - Taller Fabricación 2021</title>
+    <link>https://beatrizdelrosariovial.github.io/</link>
+    <description>Recent content in Beatriz Vial Irarrázaval on Beatriz Vial Irarrázaval - Taller Fabricación 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate><atom:link href="https://beatrizdelrosariovial.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>0 - Fabricación Digital</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/0_fabicaciondigital/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/0_fabicaciondigital/</guid>
+      <description>Documentación Post 1 - Planimetrías</description>
+    </item>
+    
+    <item>
+      <title>1 - Planimetrías</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/1_planimetr%C3%ADas/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/1_planimetr%C3%ADas/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>2 - Mecanizado CNC</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/2_mecanizadocnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/2_mecanizadocnc/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>3 - Mecanizado 2.5 Ejes </title>
+      <link>https://beatrizdelrosariovial.github.io/docs/3_mecanizado2.5ejes/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/3_mecanizado2.5ejes/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>4 - Simulación y Diseño Generativo</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/4_simulacionydise%C3%B1ogenerativo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/4_simulacionydise%C3%B1ogenerativo/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>5 - Impresión 3D</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/5_impresion3d/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/5_impresion3d/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+  </channel>
+</rss>
