@@ -70,5 +70,50 @@
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
+    <item>
+      <title>6 - Complementarios</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/6_complementarios/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/6_complementarios/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>7 - Biomateriales para moldes (I parte)</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/7_materialesparamoldes/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/7_materialesparamoldes/</guid>
+      <description>Documentación preparación biomateriales</description>
+    </item>
+    
+    <item>
+      <title>8 - Biomateriales para moldes (II parte)</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/8_materialesparamoldes2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/8_materialesparamoldes2/</guid>
+      <description>Documentación preparación biomateriales.</description>
+    </item>
+    
+    <item>
+      <title>9 - Preparación Molde</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/9_moldefinal/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/9_moldefinal/</guid>
+      <description>Documentación preparación del moldes.</description>
+    </item>
+    
+    <item>
+      <title>10 - Exámen Fabricación Digital</title>
+      <link>https://beatrizdelrosariovial.github.io/docs/10_ex%C3%A1men/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://beatrizdelrosariovial.github.io/docs/10_ex%C3%A1men/</guid>
+      <description>Documentación molde y biomaterial final del exámen.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -118,6 +118,26 @@
       <a href="https://beatrizdelrosariovial.github.io/docs/5_impresion3d/">5 - Impresión 3D</a>
     </li>
     
+    <li class="">
+      <a href="https://beatrizdelrosariovial.github.io/docs/6_complementarios/">6 - Complementarios</a>
+    </li>
+    
+    <li class="">
+      <a href="https://beatrizdelrosariovial.github.io/docs/7_materialesparamoldes/">7 - Biomateriales para moldes (I parte)</a>
+    </li>
+    
+    <li class="">
+      <a href="https://beatrizdelrosariovial.github.io/docs/8_materialesparamoldes2/">8 - Biomateriales para moldes (II parte)</a>
+    </li>
+    
+    <li class="">
+      <a href="https://beatrizdelrosariovial.github.io/docs/9_moldefinal/">9 - Preparación Molde</a>
+    </li>
+    
+    <li class="">
+      <a href="https://beatrizdelrosariovial.github.io/docs/10_ex%C3%A1men/">10 - Exámen Fabricación Digital</a>
+    </li>
+    
   </ul>
 </div>
 
@@ -236,7 +256,7 @@
     </div>
 </div>
 </p>
-<h1 id="imágenes-del-proceso-cnc">Imágenes del Proceso CNC</h1>
+<h2 id="proceso-cnc">Proceso CNC</h2>
 <p>
 
 
@@ -290,12 +310,13 @@
 
 
 </p>
+<hr>
 <h1 id="silla-fresia-planimetrías">Silla Fresia Planimetrías</h1>
 <p><img src="/img/CNC/SF/SF_01.png" alt="Planimetría 01">
 <img src="/img/CNC/SF/SF_02.png" alt="Planimetría 02">
 <img src="/img/CNC/SF/SF_03.png" alt="Planimetría 03">
 <img src="/img/CNC/SF/SF_04.png" alt="Planimetría 04"></p>
-<h1 id="galería-palnimetría">Galería Palnimetría</h1>
+<h2 id="galería-palnimetría">Galería Palnimetría</h2>
 <p>
 
 
@@ -352,28 +373,35 @@
 <h1 id="mecanizado-paso-a-paso-fusion-360">Mecanizado Paso a Paso: Fusion 360</h1>
 <ol>
 <li>
-<p>Definir área de trabajo: Plancha de Terciado. (Selección en SKETCH, con visualización en TOP), se selecciona el plano XY para crear un cuadrado de 1220X1220 mm (media plancha de terciado). Copiar las patas de la silla a usar.</p>
+<p>Definir área de trabajo: Plancha de Terciado. (Selección en SKETCH, con visualización en TOP), se selecciona el plano XY para crear un cuadrado de 1220X1220 mm (media plancha de terciado). Copiar las patas de la silla a usar.
+<img src="/img/CNC/PaP/P_01.jpeg" alt="Paso 1"></p>
 </li>
 <li>
-<p>Sobre el cuadrado se realiza un EXTRUDE de 15mm hacia arriba, luego con MOVE/COPY se mueve la silla sobre la plancha por capas, cambiándolas al plano horizontal. Para esto se usa el comando ALIGN. (Usar FLIP para que todas las piezas queden en la mirando hacia el mismo lado, es decir con la parte cortada hacia arriba).</p>
+<p>Sobre el cuadrado se realiza un EXTRUDE de 15mm hacia arriba, luego con MOVE/COPY se mueve la silla sobre la plancha por capas, cambiándolas al plano horizontal. Para esto se usa el comando ALIGN. (Usar FLIP para que todas las piezas queden en la mirando hacia el mismo lado, es decir con la parte cortada hacia arriba).
+<img src="/img/CNC/PaP/P_02.jpeg" alt="Paso 2"></p>
 </li>
 <li>
 <p>Luego se deber ir a DISEÑO&gt;MANUFACTURA, en SETUP se escoge la maquina Autodesk CNC de 3 ejes genérica.</p>
 </li>
 <li>
-<p>En Stock&gt;from solid se selecciona la plancha anteriormente creada y las piezas a cortar. Para esto se debe apagar la plancha y luego en “orientación” clickear en “Select Z axis/plane &amp; X axis”. Luego se prende la plancha y se orienta el área de trabajo con el eje X frente a nosotros y el eje Y hacia el fondo (y Z como altura).</p>
+<p>En Stock&gt;from solid se selecciona la plancha anteriormente creada y las piezas a cortar. Para esto se debe apagar la plancha y luego en “orientación” clickear en “Select Z axis/plane &amp; X axis”. Luego se prende la plancha y se orienta el área de trabajo con el eje X frente a nosotros y el eje Y hacia el fondo (y Z como altura).
+<img src="/img/CNC/PaP/P_04.jpeg" alt="Paso 4"></p>
 </li>
 <li>
-<p>Para realizar el 2D contour, se seleccionan las aristas de la base y la herramienta de corte; FRESA de 6mm (flat end mil). Aparecerán unas líneas que indican la trayectoria de la FRESA para realizar el mecanizado. *botón derecho&gt;simular.</p>
+<p>Para realizar el 2D contour, se seleccionan las aristas de la base y la herramienta de corte; FRESA de 6mm (flat end mil). Aparecerán unas líneas que indican la trayectoria de la FRESA para realizar el mecanizado. *botón derecho&gt;simular.
+<img src="/img/CNC/PaP/P_05.jpeg" alt="Paso 5"></p>
 </li>
 <li>
-<p>Se debe editar la profundidad de la plancha en Contour2D&gt;passes&gt;multiple dephts y se debe cambiar el maximun roughing a 3mm. Ahora la FRESA recortara la plancha en 5 pasos.</p>
+<p>Se debe editar la profundidad de la plancha en Contour2D&gt;passes&gt;multiple dephts y se debe cambiar el maximun roughing a 3mm. Ahora la FRESA recortara la plancha en 5 pasos.
+<img src="/img/CNC/PaP/P_06.jpeg" alt="Paso 6"></p>
 </li>
 <li>
-<p>Usando el comando 2D POCKET, se vuelve a seleccionar passes&gt;multiple dephts&gt; y cambiar el máximum roughing a 3mm. Esto rebajará el área interna seleccionada.</p>
+<p>Usando el comando 2D POCKET, se vuelve a seleccionar passes&gt;multiple dephts&gt; y cambiar el máximum roughing a 3mm. Esto rebajará el área interna seleccionada.
+<img src="/img/CNC/PaP/P_07.jpeg" alt="Paso 7"></p>
 </li>
 <li>
-<p>Luego, para realizar el área externa, se vuelve a seguir la sucesión de pasos indicada en el PASO 6, que indica el trayecto de la herramienta. Finalmente, al terminar quedara la pieza suelta por lo que para evitar que se rompa la plancha se deben ajustar los TABS en width: 6mm ; Height: 3mm ; Distance: 350mm.</p>
+<p>Luego, para realizar el área externa, se vuelve a seguir la sucesión de pasos indicada en el PASO 6, que indica el trayecto de la herramienta. Finalmente, al terminar quedara la pieza suelta por lo que para evitar que se rompa la plancha se deben ajustar los TABS en width: 6mm ; Height: 3mm ; Distance: 350mm.
+<img src="/img/CNC/PaP/P_08.jpeg" alt="Paso 8"></p>
 </li>
 <li>
 <p>Se hace una simulación final, en la que se mostraran todos los pasos anteriores con la pieza mecanizada.</p>
@@ -385,13 +413,39 @@
 <p>Apagamos la capa de la figura 1 y extruimos la figura a 9mm y volvemos a prender la capa de la figura 1, dándole un Opacity Control de 10%. Luego, encendemos los mecanizadores.</p>
 </li>
 <li>
-<p>En manufacture, hacemos set up y elegimos la máquina (Orientation Type: miling, Orientation: select z axis/ plane &amp; X axis, Z axis: Face, X axis: Edge), apretamos 2D contour (multiple depths: máximum 3mm), después, Trace (de 2D), seleccionamos las líneas para que la fresa las siga, con un stock to leave de 4, 5mm. Por último, hacemos la simulación.</p>
+<p>En manufacture, hacemos set up y elegimos la máquina (Orientation Type: miling, Orientation: select z axis/ plane &amp; X axis, Z axis: Face, X axis: Edge), apretamos 2D contour (multiple depths: máximum 3mm), después, Trace (de 2D), seleccionamos las líneas para que la fresa las siga, con un stock to leave de 4, 5mm. Por último, hacemos la simulación.
+<img src="/img/CNC/PaP/P_12.jpeg" alt="Paso 12"></p>
 </li>
 </ol>
 <h1 id="videos-cortes-fusion-360">Videos Cortes: Fusion 360</h1>
 <h2 id="corte-completo">Corte Completo</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/CNC01.mp4"  type="video/mp4">
+    </video>
+</div>
 <h2 id="corte-de-zona">Corte de Zona</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/CNC02.mp4"  type="video/mp4">
+    </video>
+</div>
 <h2 id="corte-asiento">Corte Asiento</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/CNC03.mp4"  type="video/mp4">
+    </video>
+</div>
+<hr>
 <h1 id="iframe">Iframe</h1>
 <div>
     <iframe 
