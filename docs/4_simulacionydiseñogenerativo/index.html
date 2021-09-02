@@ -157,12 +157,107 @@
 <p>Aún así, se ha generado una gran polémica sobre la creatividad y el arte, donde se pierde la mente de los autores, y todo se limita a maquinas para la creación de los objetos. Igualmente, estas tecnologías permiten a los diseñadores a enfatizarse en sus creaciones e innovaciones y no en los temas de material o estructura</p>
 <hr>
 <h1 id="ala-de-avión-paso-a-paso-fusion-360">Ala de Avión Paso a Paso: Fusion 360</h1>
-<h2 id="problemática">Problemática</h2>
+<h2 id="problema">Problema</h2>
+<p>Para hacer más ligera el ala del avión, buscamos la pieza más viable de optimizar, la cual sería la que se repite más veces, intentando hacerla más liviana para el avión, ya que esto afecta directamente con el consumo de combustible, logrando una mayor eficiencia energética.</p>
+<h2 id="simulación">Simulación</h2>
+<p>Paso 1: Aislamos la pieza para poder trabajarla y optimizarla.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A01.png" alt="Paso Ala 01"></p>
+<p>Paso 2: Pasamos al módulo de <code>SIMULATION</code> que se encuentra en <code>DESING</code>.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A02.png" alt="Paso Ala 02"></p>
+<p>Paso 3: Haremos un nuevo <code>STUDY</code> y evaluaremos el <code>STATIC STRESS</code>: el estrés estático de la pieza.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A03.png" alt="Paso Ala 03"></p>
+<p><code>Materials</code>: vemos que se está trabajando con acero y mantendremos esto.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A04.png" alt="Paso Ala 04">
+<code>Constraints</code>: marcamos las partes de la pieza que se mantendrán en el lugar, sin sufrir alteraciones, las cuales serán las que están unidas a las demás piezas del ala, el perfil de ataque y salida.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A05.png" alt="Paso Ala 05">
+<code>Loads</code>: le damos una carga de 1.000 Newton para la simulación, en la parte inferior del ala (en la imágen esta al revés, por esto, se ve como superior).
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A07.png" alt="Paso Ala 07"></p>
+<p>Paso 4: Damos <code>Pre- Check</code> y luego <code>SOLVE</code>
+Acá vemos los resultados de la simulación, la parte que se ve menos afectada por la fuerza simulada sería de color azul, luego la verde, la amarilla y, la más afectada sería de color rojo. Siendo la parte roja
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A06.png" alt="Paso Ala 06">
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A08.png" alt="Paso Ala 08">
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A09.png" alt="Paso Ala 09">
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A10.png" alt="Paso Ala 10"></p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/VA01.mp4"  type="video/mp4">
+    </video>
+</div>
+<h2 id="propuesta-del-diseño-generativo">Propuesta del Diseño Generativo</h2>
+<p>Para rediseñar la pieza del ala para poder disminuir su peso, problema inicial, definimos las piezas que debemos mantener, las cuales son las que están en contacto con el ensamble, así, optimizamos el peso, buscando el perfil alar.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A11.png" alt="Paso Ala 11"></p>
+<p>Dejamos esta parte encendida y repetimos la carga de 1.000 Newton.
+Presionamos <code>DESING</code>, luego <code>SAFTY FACTORY</code>: la cual quedará en 2, pero, en realidad, la de un avión debiese ser mayor.</p>
+<p><code>Criteria</code>: matenemos Additive y presionamos 2- axis cutting, en el eje Z.
+<code>Material</code>: Aluminium, Titanium y Stainless Steel.</p>
+<p>Vamos a <code>Pre- Check</code>y, luego, <code>Generate</code>: generamos la pieza con las condiciones puestas.</p>
+<p>Exploramos los resultados:
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A12.png" alt="Paso Ala 12"></p>
+<p>Y seleccionamos el que prefiramos, considerando, las mejores condiciones para nuestra pieza.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A13.png" alt="Paso Ala 13"></p>
+<p>Para finalizar, rediseñamos la pieza a nuestro gusto, de forma estética, dependiendo la importancia que tenga el producto y su forma para su fin.
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A14.png" alt="Paso Ala 14">
+<img src="/img/Dise%C3%B1oGenerativo/Ala/A15.png" alt="Paso Ala 15"></p>
 <h1 id="iframe-ala">Iframe Ala</h1>
+<div>
+    <iframe 
+    src='https://alumnos4802.autodesk360.com/shares/public/SH919a0QTf3c32634dcf098dc6c0e4cdfe04?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
 <hr>
 <h1 id="ge-bracket-paso-a-paso-fusion-360">GE Bracket Paso a Paso: Fusion 360</h1>
-<h2 id="problemática-1">Problemática</h2>
+<h2 id="simulación-1">Simulación</h2>
+<p>En la biblioteca de ejemplos de Fusion 360 nos dirigimos a <code>GENERATIVE DESIGN SAMPLES</code> y seleccionamos el <code>GE Bracket</code>. Guardamos el modelo y damos comienzo al trabajo sobre este.</p>
+<p><img src="/img/Dise%C3%B1oGenerativo/GE/GE01.png" alt="Paso GE 01"></p>
+<p>Presionamos <code>Generative Desing</code> y damos comienzo a la simulación.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE02.png" alt="Paso GE 02"></p>
+<p>Paso 1: <code>Preserve Geometry</code> (en Desing Space), en este lugar seleccionamos las piezas que no queremos que cambien cuando el objeto sea modificado.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE03.png" alt="Paso GE 03">
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE04.png" alt="Paso GE 04"></p>
+<p>Paso 2: <code>Obstacle Geometry</code> (en Desing Space), ahora seleccionamos las piezas que no deben tener material, para poder generar movimiento, ya que estas lo impiden.
+Apagamos estas.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE05.png" alt="Paso GE 05">
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE06.png" alt="Paso GE 06"></p>
+<p>Paso 3: <code>Structural Constraints</code>, elegimos áreas que deben quedar fijas, ya que estás deben quedar ancladas a una base.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE07.png" alt="Paso GE 07">
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE08.png" alt="Paso GE 08"></p>
+<p>Paso 4: <code>Structural Loads</code>, seleccionamos las áreas que recibirán la carga de 1.000 Newton.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE09.png" alt="Paso GE 09">
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE10.png" alt="Paso GE 10"></p>
+<p>Paso 5: <code>Objetives and Limits</code>, miminize mass y safety factory: 2.</p>
+<p>Paso 6: <code>Materials</code>: Aluminium, Titanium, Iconel y Plastic</p>
+<p>Paso 7: <code>Pre- Check</code>
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE11.png" alt="Paso GE 11"></p>
+<p>Paso 8: Apagamos el Starting Shape y <code>Previewer</code>
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE12.png" alt="Paso GE 12"></p>
+<p>Paso 9: <code>Generate</code>, esto puede demorar horas, por lo que se debe tener tiempo.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE13.png" alt="Paso GE 13"></p>
+<h2 id="propuesta-del-diseño-generativo-1">Propuesta del Diseño Generativo</h2>
+<p>Paso 10: En este momento podemos analizar las diferentes opciones que tenemos, pudiendo comparar sus vista de tensión, vista transparente y vista del el modelo. COmparar el objeto con una vista de conservación y de obstáculo, así podemos notar lo que se pudo conservar del modelo original y lo que cambio de este.
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE14.png" alt="Paso GE 14">
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE15.png" alt="Paso GE 15">
+<img src="/img/Dise%C3%B1oGenerativo/GE/GE16.png" alt="Paso GE 16"></p>
 <h1 id="iframe-bracket">Iframe Bracket</h1>
+<div>
+    <iframe 
+    src='https://alumnos4802.autodesk360.com/shares/public/SH919a0QTf3c32634dcf652d15084bc6e479?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
 <hr>
 <h1 id="bibliografía">Bibliografía</h1>
 <p><a href="https://www.reurbano.mx/que-es-el-diseno-generativo-2/">https://www.reurbano.mx/que-es-el-diseno-generativo-2/</a></p>
